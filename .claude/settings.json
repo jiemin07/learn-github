@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(clang++ -std=c++17 -g 变量2.cpp -o 变量2)"
+    ]
+  }
+}

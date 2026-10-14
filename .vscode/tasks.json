@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "C/C++: clang++ 生成活动文件",
+            "command": "mkdir -p \"${workspaceFolder}/调试/${relativeFileDirname}\" && /usr/bin/clang++ -fcolor-diagnostics -fansi-escape-codes -std=c++17 -g \"${file}\" -o \"${workspaceFolder}/调试/${relativeFileDirname}/${fileBasenameNoExtension}\"",
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "调试器生成的任务。"
+        }
+    ]
+}

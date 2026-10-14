@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//private/tmp/**)",
+      "Bash(clang++ -std=c++17 b.cpp -o b)",
+      "Bash(clang++ -std=c++17 c.cpp -o c)"
+    ]
+  }
+}
