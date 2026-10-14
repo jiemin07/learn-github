@@ -1,6 +1,15 @@
 #include <iostream>
 #include <string>
 
+
+//函数
+    int add(int bb,int cc)
+    {
+        int aa=bb+cc;
+        return aa;
+    }
+
+
 int main()
 {
 
@@ -23,6 +32,14 @@ int main()
     std::cout << (d<e?d:e) << std::endl;
     std::cout << (d<e?e:d) << std::endl;
 
+
+    /*而 bool 只有两个可能值：true 和 false。
+    用 switch 处理只有两种情况的逻辑，
+    属于用牛刀杀鸡，而且容易写错。
+    所以编译器提醒你：
+    这种情况更适合用 if-else。
+    逻辑上是对的，但不推荐这么写。
+    */
     switch (static_cast<int>(d < e))
     {
     case 1:
@@ -33,5 +50,21 @@ int main()
         std::cout << e <<std::endl;
         break;
     }
+
+    int num1=100;
+    int num2=20;
+    int cc = add(num1,num2);
+    std::cout << cc << std::endl;
+
+    return 0;
     return 0;
 }
+
+
+
+
+
+
+
+
+
