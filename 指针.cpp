@@ -12,6 +12,6 @@ int main()
     p = &a;
 
     std::cout << p << std::endl;
-
+//love
     return 0;
 }
