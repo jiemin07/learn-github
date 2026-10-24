@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     "在局部变量前面加static关键字"
+relocations:     []
+...

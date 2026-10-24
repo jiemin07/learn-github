@@ -1,11 +1,13 @@
 #include <iostream>
 
-int add(int num1, int num2)
+template <typename T>
+T add(int num1, int num2)
 // num1,num2，没有真实数据，形参
 {
-    int sum = num1 + num2;
+    T sum = num1 + num2;
     return sum;
 }
+
 
 int main()
 {

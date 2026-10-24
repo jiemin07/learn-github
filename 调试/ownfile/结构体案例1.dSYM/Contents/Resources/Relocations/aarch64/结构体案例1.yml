@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     "/Users/jiemin/code/调试/ownfile/结构体案例1"
+relocations:     []
+...
